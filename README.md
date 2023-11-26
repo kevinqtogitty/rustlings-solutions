@@ -6,7 +6,7 @@
 | functions       | 5/5 :white_check_mark: |
 | if              | 3/3 :white_check_mark: |
 | primitive_types | 6/6 :white_check_mark: |
-| vecs            |                        |
+| vecs            | 2/2 :white_check_mark: |
 | move_semantics  |                        |
 | structs         |                        |
 | enums           |                        |
