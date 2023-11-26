@@ -7,13 +7,11 @@
 //
 // Execute `rustlings hint vecs2` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
-
 fn vec_loop(mut v: Vec<i32>) -> Vec<i32> {
     for element in v.iter_mut() {
-        // TODO: Fill this up so that each element in the Vec `v` is
-        // multiplied by 2.
-        ???
+        // Because above we gain the reference to the current element, we need to dereference
+        // using the '*' so we get the actual element to be able to mutate it
+        *element *= 2
     }
 
     // At this point, `v` should be equal to [4, 8, 12, 16, 20].
@@ -22,9 +20,10 @@ fn vec_loop(mut v: Vec<i32>) -> Vec<i32> {
 
 fn vec_map(v: &Vec<i32>) -> Vec<i32> {
     v.iter().map(|element| {
-        // TODO: Do the same thing as above - but instead of mutating the
-        // Vec, you can just return the new number!
-        ???
+        // Similar to a map in JS, the double pipe give us access to the current element
+        // and we just need to pass in a closure/lambda function, and call .collect() to
+        // 'collect' all the computations back into a new Vec<i32> 
+        return element * 2
     }).collect()
 }
 
