@@ -11,7 +11,7 @@
 | structs         | 3/3 :white_check_mark: |
 | enums           | 3/3 :white_check_mark: |
 | strings         | 4/4 :white_check_mark: |
-| modules         |                        |
+| modules         | 3/3 :white_check_mark: |
 | hashmaps        |                        |
 | options         |                        |
 | error_handling  |                        |
