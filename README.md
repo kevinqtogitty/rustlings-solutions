@@ -10,7 +10,7 @@
 | move_semantics  | 6/6 :white_check_mark: |
 | structs         | 3/3 :white_check_mark: |
 | enums           | 3/3 :white_check_mark: |
-| strings         |                        |
+| strings         | 4/4 :white_check_mark: |
 | modules         |                        |
 | hashmaps        |                        |
 | options         |                        |
