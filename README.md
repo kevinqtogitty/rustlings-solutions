@@ -9,7 +9,7 @@
 | vecs            | 2/2 :white_check_mark: |
 | move_semantics  | 6/6 :white_check_mark: |
 | structs         | 3/3 :white_check_mark: |
-| enums           |                        |
+| enums           | 3/3 :white_check_mark: |
 | strings         |                        |
 | modules         |                        |
 | hashmaps        |                        |
