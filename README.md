@@ -12,7 +12,7 @@
 | enums           | 3/3 :white_check_mark: |
 | strings         | 4/4 :white_check_mark: |
 | modules         | 3/3 :white_check_mark: |
-| hashmaps        |                        |
+| hashmaps        | 3/3 :white_check_mark: |
 | options         |                        |
 | error_handling  |                        |
 | generics        |                        |
