@@ -25,4 +25,4 @@
 | macros          |                        |
 | clippy          |                        |
 | conversions     |                        |
-| quizzes         | 1/3 :turtle:           |
+| quizzes         | 2/3 :turtle:           |
