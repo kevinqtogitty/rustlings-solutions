@@ -13,7 +13,7 @@
 | strings         | 4/4 :white_check_mark: |
 | modules         | 3/3 :white_check_mark: |
 | hashmaps        | 3/3 :white_check_mark: |
-| options         |                        |
+| options         | 3/3 :white_check_mark: |
 | error_handling  |                        |
 | generics        |                        |
 | traits          |                        |
