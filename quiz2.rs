@@ -30,15 +30,26 @@ mod my_module {
     use super::Command;
 
     pub fn transformer(input: Vec<(String, Command)>) -> Vec<String> {
-        let mut output:Vec<String> = vec![];
-        for (string, command) in input.iter() {
-            match command {
-                Command::Uppercase => output.push(string.to_uppercase()),
-                Command::Trim => output.push(string.trim().to_owned()),
-                Command::Append(size) => output.push(format!("{}{}", string, "bar".to_string().repeat(*size)))
-            }
-        }
-        output
+        // let mut output:Vec<String> = vec![];
+        // for (string, command) in input.iter() {
+        //     match command {
+        //         Command::Uppercase => output.push(string.to_uppercase()),
+        //         Command::Trim => output.push(string.trim().to_owned()),
+        //         Command::Append(size) => output.push(format!("{}{}", string, "bar".to_string().repeat(*size)))
+        //     }
+        // }
+        // output
+
+        // The better option would to just map and match on the command
+        input
+            .iter()
+            .map(|(string, command)| {
+                match command {
+                    Command::Uppercase => string.to_uppercase(),
+                    Command::Trim => string.trim().to_owned(),
+                    Command::Append(size) => format!("{string}{}", "bar".repeat(*size))
+                }
+            }).collect()
     }
 }
 
