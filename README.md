@@ -14,7 +14,7 @@
 | modules         | 3/3 :white_check_mark: |
 | hashmaps        | 3/3 :white_check_mark: |
 | options         | 3/3 :white_check_mark: |
-| error_handling  |                        |
+| error_handling  | 6/6 :white_check_mark: |
 | generics        |                        |
 | traits          |                        |
 | tests           |                        |
