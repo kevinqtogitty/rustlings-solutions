@@ -17,7 +17,7 @@
 | error_handling  | 6/6 :white_check_mark: |
 | generics        | 2/2 :white_check_mark: |
 | traits          | 5/5 :white_check_mark: |
-| tests           |                        |
+| tests           | 4/4 :white_check_mark: |
 | lifetimes       |                        |
 | iterators       |                        |
 | threads         |                        |
@@ -25,4 +25,4 @@
 | macros          |                        |
 | clippy          |                        |
 | conversions     |                        |
-| quizzes         | 2/3 :turtle:           |
+| quizzes         | 3/3 :partying_face:    |
