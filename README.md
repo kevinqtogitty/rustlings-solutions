@@ -15,8 +15,8 @@
 | hashmaps        | 3/3 :white_check_mark: |
 | options         | 3/3 :white_check_mark: |
 | error_handling  | 6/6 :white_check_mark: |
-| generics        |                        |
-| traits          |                        |
+| generics        | 2/2 :white_check_mark: |
+| traits          | 5/5 :white_check_mark: |
 | tests           |                        |
 | lifetimes       |                        |
 | iterators       |                        |
