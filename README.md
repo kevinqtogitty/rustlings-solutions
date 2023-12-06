@@ -18,7 +18,7 @@
 | generics        | 2/2 :white_check_mark: |
 | traits          | 5/5 :white_check_mark: |
 | tests           | 4/4 :white_check_mark: |
-| lifetimes       |                        |
+| lifetimes       | 3/3 :white_check_mark: |
 | iterators       |                        |
 | threads         |                        |
 | smart_pointers  |                        |
