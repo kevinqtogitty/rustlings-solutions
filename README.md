@@ -19,7 +19,7 @@
 | traits          | 5/5 :white_check_mark: |
 | tests           | 4/4 :white_check_mark: |
 | lifetimes       | 3/3 :white_check_mark: |
-| iterators       |                        |
+| iterators       | 5/5 :white_check_mark: |
 | threads         |                        |
 | smart_pointers  |                        |
 | macros          |                        |
