@@ -3,8 +3,6 @@
 // Execute `rustlings hint iterators4` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
-
 pub fn factorial(num: u64) -> u64 {
     // Complete this function to return the factorial of num
     // Do not use:
@@ -15,6 +13,19 @@ pub fn factorial(num: u64) -> u64 {
     // For an extra challenge, don't use:
     // - recursion
     // Execute `rustlings hint iterators4` for hints.
+
+    // match num {
+    //     0 => 1,
+    //     _ => num * factorial(num - 1)
+    // }
+
+    let range = 1..=num;
+    // We can call .product() on the range and it will give us the product of all the numbers in the given range
+    // range.product()
+
+    // Or we can call fold or rfold (starting left, right respectively)
+    // range.into_iter().fold(1, |acc, value| acc * value );
+    range.into_iter().rfold(1, |acc, value| acc * value )
 }
 
 #[cfg(test)]
